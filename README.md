@@ -50,11 +50,9 @@ spm26 script examples/spm_test.m
 | A saved batch (from the Batch Editor, *File → Save Batch*, as `.m`) | `spm26 batch job.m` |
 | A MATLAB script using SPM functions | `spm26 script myscript.m` |
 | A single command | `spm26 eval "disp(spm('Ver'))"` |
-| The GUI (needs `ssh -X`, slow over a remote connection) | `spm26 fmri` |
 
-A practical workflow: build and save one subject's batch in the GUI (on RACC with
-`ssh -X`, or on your own computer with the same SPM version), then run it for every
-subject as jobs on the cluster.
+A practical workflow: build and save one subject's batch in the GUI (on NoMachine (Neurodesk-modules SPM), or on your own computer with the same SPM version), then run it for every
+subject as slurm jobs on the cluster.
 
 ## 4. Running batches as Slurm jobs
 
