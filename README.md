@@ -104,6 +104,6 @@ need to be unzipped first: SPM reads `.nii`, not `.nii.gz`.
 
 - SPM: <https://www.fil.ion.ucl.ac.uk/spm/>
 - SPM standalone: <https://www.fil.ion.ucl.ac.uk/spm/docs/installation/standalone/>
-- Neurodesk: <https://neurodesk.org>
+- Transparent Singularity: <https://neurodesk.org/developers/architecture/transparent-singularity/>
 
 Questions or problems: contact Dr Simon Yuan (simon.yuan@reading.ac.uk).
