@@ -30,4 +30,3 @@ trap 'rm -rf "$MCR_CACHE_ROOT"' EXIT
 
 echo "Running $JOB on $(hostname) at $(date)"
 spm26 batch "$JOB"
-echo "Finished at $(date)"
